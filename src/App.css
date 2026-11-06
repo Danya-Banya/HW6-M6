@@ -1,0 +1,39 @@
+body {
+  background-color: #111;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+}
+.wrapper {
+  background-color: #222;
+  border: #333;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+input {
+  max-width: 50%;
+}
+.error {
+  color: rgb(185, 1, 1);
+  text-align: center;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+button {
+  background: #222;
+  border: 2px solid #222;
+  color: #fff;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+button:disabled {
+  background: none;
+  cursor: not-allowed;
+  color: #AEAEAE;
+}
